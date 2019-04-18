@@ -1,4 +1,4 @@
-function favoriteCount(key){
+function addHandlerFavoriteCount(key){
   
   $(`.favorite-modal[data-id=${key}]`).click(function fav(){
     let favNum = $(`.favorite-count-modal[data-id=${key}]`).html();
